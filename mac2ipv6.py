@@ -18,7 +18,7 @@ def makeIPv6(a_MAC):
 
 def main():
     if len(sys.argv) != 2:
-    	print("Uso: python3",sys.argv[0]," <MAC ADDRESS>")
+    	print("Usage: python3",sys.argv[0]," <MAC ADDRESS>")
 
     MAC = sys.argv[1]
     a_MAC = MAC.split(":")
